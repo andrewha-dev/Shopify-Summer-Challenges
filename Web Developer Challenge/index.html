@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Newsletter</title>
+</head>
+
+<body>
+  <div class="container-fluid col-10 col-sm-7 offset-sm-3 col-md-9 offset-md-2 col-lg-9 offset-lg-2 main">
+    <div class="col-sm-10 removePadding">
+      <h2 class="header">Stay up to date with ecommerce trends with Shopify's newsletter</h2>
+    </div>
+    <p class="underscore">___</p>
+    <form id="formSubscription" class="form-horizontal">
+      <p class="secondHeader">Subscribe for free marketing tips</p>
+      <div class="row">
+        <div class="col-sm-6">
+          <input id="txtEmail" type="text" class="form-control" placeholder="Email Address">
+        </div>
+
+        <div class="row mobileErrorMessage">
+          <div class="col-sm-6">
+            <p class="col-sm-6 errorMessage"></p>
+          </div>
+
+        </div>
+        <div class="col-sm-4 notMobile">
+          <select id="ddlInterested" class="form-control">
+            <option value="" disabled selected>Interested in...</option>
+            <option value="Customers">Customers</option>
+            <option value="Products">Products</option>
+            <option value="Technology">Technology</option>
+            <option value="Events">Upcoming Events</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="row notMobileErrorMessage">
+        <div class="col-sm-6">
+          <p class="errorMessage"></p>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10 mt-2">
+          <input type="submit" class="col-sm-12 btn btn-primary" value="Sign up now">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer container-fluid col-10 col-sm-7 offset-sm-3 col-md-9 offset-md-2 col-lg-9 offset-lg-2 mt-5">
+    <div class="row">
+      <div class="col-sm-10">
+        <p class="unsubscribe col-sm-12"><a class="unsubscribe" href="javascript:void(0);">Unsubscribe</a></p>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+    crossorigin="anonymous"></script>
+  <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>

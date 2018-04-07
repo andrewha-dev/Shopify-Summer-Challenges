@@ -1,0 +1,107 @@
+body {
+    background-color: #000639;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.removePadding {
+    padding: 0 !important;
+}
+
+.underscore {
+    color: #7AB55C;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.secondHeader {
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.mobileErrorMessage {
+    display: block;
+}
+
+.notMobileErrorMessage {
+    display: none;
+}
+
+form {
+    margin-top: none;
+}
+
+.unsubscribe {
+    color: #ffffff !important;
+    text-align: center;
+    display: inline-block;
+}
+
+.unsubscribe:hover, .unsubscribe:visited, .unsubscrive:focus {
+    color: #7B7B7B !important;
+}
+
+.main {
+    margin-top: 1em;
+}
+
+.errorMessage {
+    color: #C23628;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+    background-color: #5c6ac4 !important;
+    border: 2px solid #5c6ac4;
+}
+
+.footer {
+    margin-top: 90% !important;
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 2em !important;
+    }
+    .mobileErrorMessage {
+        display: none !important;
+    }
+    form {
+        margin-top: 3em;
+    }
+    .notMobileErrorMessage {
+        display: block !important;
+    }
+
+    .main  {
+        margin-top: 3em;
+    }
+
+    .footer {
+        margin-top: 9em !important;
+    }
+
+    .secondHeader {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    h2 {
+        font-size: 2em !important;
+    }
+
+    .footer {
+        margin-top: 12em !important;
+    }
+}
